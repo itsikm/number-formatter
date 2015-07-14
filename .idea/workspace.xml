@@ -8,6 +8,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/number-formatter.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
     </list>
     <ignored path="number-formatter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,12 +59,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="travis.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/travis.yaml">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1436892942000" expanded="true" signature="19:39" placeholder="node_js:" />
+                <marker date="1436892942000" expanded="true" signature="40:65" placeholder="install:" />
+                <marker date="1436892942000" expanded="true" signature="66:87" placeholder="scripts:" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -175,7 +180,36 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <method />
     </configuration>
   </component>
@@ -193,7 +227,19 @@
       <option name="project" value="LOCAL" />
       <updated>1436892965724</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="remove .idea">
+      <created>1436893320294</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1436893320294</updated>
+    </task>
+    <task id="LOCAL-00003" summary="rename travis file">
+      <created>1436893481200</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1436893481200</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -225,7 +271,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add travis" />
-    <option name="LAST_COMMIT_MESSAGE" value="add travis" />
+    <MESSAGE value="remove .idea" />
+    <MESSAGE value="rename travis file" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename travis file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -272,11 +320,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travis.yaml">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1436892942000" expanded="true" signature="19:39" placeholder="node_js:" />
+            <marker date="1436892942000" expanded="true" signature="40:65" placeholder="install:" />
+            <marker date="1436892942000" expanded="true" signature="66:87" placeholder="scripts:" />
+          </folding>
         </state>
       </provider>
     </entry>
